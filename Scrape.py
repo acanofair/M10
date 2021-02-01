@@ -1,7 +1,9 @@
 import re
-import urllib.request 
+import urllib.request
 # with urllib.request.urlopen as response
 from urllib.request import urlopen as open
+from bs4 import BeautifulSoup
+
 
 def test_scrape(): 
     url = 'http://python.org'
@@ -40,10 +42,15 @@ def nameandcolor_scrape():
         print (texts)
         
 def soupscrape():
-    from bs4 import Beau
-    from urllib.request import urlopen 
-    url = "http://python.org"
+    url = open("http://python.org").read().decode("utf-8")
+    soup = BeautifulSoup(url, "html.parser")
+    return soup
 
+
+print( soupscrape().header
+
+    
+)
 
 
 
