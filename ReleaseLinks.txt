@@ -1,0 +1,5 @@
+["https://www.nike.com/launch/t/dunk-high-vast-grey",
+"https://www.nike.com/launch/t/air-jordan-6-carmine",
+"https://www.nike.com/launch/t/womens-dunk-low-coast",
+"https://www.nike.com/launch/t/dunk-high-football-grey",
+"https://www.nike.com/launch/t/dunk-low-hyper-cobalt"]
