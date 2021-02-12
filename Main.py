@@ -1,9 +1,10 @@
 import discord
 import os
 import asyncio
+import bs4 as soup
 from discord.ext import commands 
 
-
+releases = []
 
 def DISORD():
     client = commands.Bot(command_prefix= '.')
@@ -24,8 +25,11 @@ def DISORD():
 
 
 async def eyesoverheaven():
-    
-    
-    return 0 
+    task 1 = 
+    url = "https://www.nike.com/launch/t/dunk-high-vast-grey"
+    view = soup(url).BeautifulSoup.text
+    return view
 
+
+print(eyesoverheaven())
 
